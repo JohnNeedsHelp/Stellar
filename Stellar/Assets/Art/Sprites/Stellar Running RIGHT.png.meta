@@ -1,25 +1,34 @@
 fileFormatVersion: 2
-guid: e644cabc41473b14987a5723742fd73e
+guid: 0a233dd3df7c458439398cd6bc76e4fa
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8597709457281831273
-    second: Idle Stellar LEFT_0
+      213: -5118383872041891680
+    second: Stellar Running RIGHT_0
   - first:
-      213: -7130903512357685680
-    second: Idle Stellar LEFT_1
+      213: -3192959373245942072
+    second: Stellar Running RIGHT_1
   - first:
-      213: 8070004668104804627
-    second: Idle Stellar LEFT_2
+      213: -1835298824212677857
+    second: Stellar Running RIGHT_2
   - first:
-      213: -3070955959211783311
-    second: Idle Stellar LEFT_3
+      213: -3595180888457023938
+    second: Stellar Running RIGHT_3
   - first:
-      213: -7883342259821128531
-    second: Idle Stellar LEFT_4
+      213: 528014159487022371
+    second: Stellar Running RIGHT_4
   - first:
-      213: -2379021921547587549
-    second: Idle Stellar LEFT_5
+      213: 8516647338346387644
+    second: Stellar Running RIGHT_5
+  - first:
+      213: -7439231479615297838
+    second: Stellar Running RIGHT_6
+  - first:
+      213: 3706375524776822193
+    second: Stellar Running RIGHT_7
+  - first:
+      213: 7795329902769412482
+    second: Stellar Running RIGHT_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -145,7 +154,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle Stellar LEFT_0
+      name: Stellar Running RIGHT_0
       rect:
         serializedVersion: 2
         x: 0
@@ -159,14 +168,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 79e23bc1dcccea880800000000000000
-      internalID: -8597709457281831273
+      spriteID: 0a8cada9cf8d7f8b0800000000000000
+      internalID: -5118383872041891680
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle Stellar LEFT_1
+      name: Stellar Running RIGHT_1
       rect:
         serializedVersion: 2
         x: 50
@@ -180,14 +189,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 056b5526901f90d90800000000000000
-      internalID: -7130903512357685680
+      spriteID: 8c6fb67fd5450b3d0800000000000000
+      internalID: -3192959373245942072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle Stellar LEFT_2
+      name: Stellar Running RIGHT_2
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 100
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1b7c167175b786e0800000000000000
+      internalID: -1835298824212677857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stellar Running RIGHT_3
       rect:
         serializedVersion: 2
         x: 0
@@ -201,14 +231,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 319812a2d7a6eff60800000000000000
-      internalID: 8070004668104804627
+      spriteID: e3eee30b70a5b1ec0800000000000000
+      internalID: -3595180888457023938
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle Stellar LEFT_3
+      name: Stellar Running RIGHT_4
       rect:
         serializedVersion: 2
         x: 50
@@ -222,14 +252,35 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17b005263d5c165d0800000000000000
-      internalID: -3070955959211783311
+      spriteID: 325b99c9412e35700800000000000000
+      internalID: 528014159487022371
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle Stellar LEFT_4
+      name: Stellar Running RIGHT_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 50
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb8996f81a5313670800000000000000
+      internalID: 8516647338346387644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stellar Running RIGHT_6
       rect:
         serializedVersion: 2
         x: 0
@@ -243,14 +294,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da459808bfdb89290800000000000000
-      internalID: -7883342259821128531
+      spriteID: 2d660af426a82c890800000000000000
+      internalID: -7439231479615297838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle Stellar LEFT_5
+      name: Stellar Running RIGHT_7
       rect:
         serializedVersion: 2
         x: 50
@@ -264,8 +315,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 320f94dba240cfed0800000000000000
-      internalID: -2379021921547587549
+      spriteID: 1b5468e07e0bf6330800000000000000
+      internalID: 3706375524776822193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stellar Running RIGHT_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2891d81ce339e2c60800000000000000
+      internalID: 7795329902769412482
       vertices: []
       indices: 
       edges: []

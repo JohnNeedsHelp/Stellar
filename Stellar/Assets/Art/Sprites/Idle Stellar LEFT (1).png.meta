@@ -1,25 +1,19 @@
 fileFormatVersion: 2
-guid: 6b1c32e936bd261418515301a0f09e55
+guid: 742ecc25837601e41853d4b5a4003782
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8390926984532583342
-    second: Idle Stellar_0
+      213: 9010612637619211043
+    second: Idle Stellar LEFT (1)_0
   - first:
-      213: -4899244120521437259
-    second: Idle Stellar_1
+      213: -2251245983940479882
+    second: Idle Stellar LEFT (1)_1
   - first:
-      213: 6588778661055055471
-    second: Idle Stellar_2
+      213: 7010970126970360856
+    second: Idle Stellar LEFT (1)_2
   - first:
-      213: 2300838806461613071
-    second: Idle Stellar_3
-  - first:
-      213: -1657104616732069897
-    second: Idle Stellar_4
-  - first:
-      213: -5625243056223749965
-    second: Idle Stellar_5
+      213: 4763517453040515414
+    second: Idle Stellar LEFT (1)_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -145,49 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle Stellar_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 100
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea3ed49a2af827470800000000000000
-      internalID: 8390926984532583342
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle Stellar_1
-      rect:
-        serializedVersion: 2
-        x: 50
-        y: 100
-        width: 50
-        height: 50
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5bf06600e63620cb0800000000000000
-      internalID: -4899244120521437259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Idle Stellar_2
+      name: Idle Stellar LEFT (1)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -201,14 +153,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f664cdb884b007b50800000000000000
-      internalID: 6588778661055055471
+      spriteID: 32b40f124702c0d70800000000000000
+      internalID: 9010612637619211043
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle Stellar_3
+      name: Idle Stellar LEFT (1)_1
       rect:
         serializedVersion: 2
         x: 50
@@ -222,14 +174,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f04049044b83eef10800000000000000
-      internalID: 2300838806461613071
+      spriteID: 674f33984b7f1c0e0800000000000000
+      internalID: -2251245983940479882
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle Stellar_4
+      name: Idle Stellar LEFT (1)_2
       rect:
         serializedVersion: 2
         x: 0
@@ -243,14 +195,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ff660c7128c009e0800000000000000
-      internalID: -1657104616732069897
+      spriteID: 81491fc4f28fb4160800000000000000
+      internalID: 7010970126970360856
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle Stellar_5
+      name: Idle Stellar LEFT (1)_3
       rect:
         serializedVersion: 2
         x: 50
@@ -264,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b8fc828e3f1fe1b0800000000000000
-      internalID: -5625243056223749965
+      spriteID: 6597ad5a2e96b1240800000000000000
+      internalID: 4763517453040515414
       vertices: []
       indices: 
       edges: []
