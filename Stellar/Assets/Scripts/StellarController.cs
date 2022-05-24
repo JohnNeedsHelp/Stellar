@@ -4,23 +4,26 @@ using UnityEngine;
 
 public class StellarController : MonoBehaviour
 {
-    public float speed = 3.0f;
+    public float speed = 1.5f;
+
     Rigidbody2D rigidbody2d;
     float horizontal;
     float vertical;
+
     Animator animator;
     Vector2 lookDirection = new Vector2(1, 0);
 
     void Start()
     {
+        rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
     // Update is called once per frame
     void Update()
     {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
-        Vector2 position = transform.position;
+        horizontal = Input.GetAxis("Horizontal");
+        vertical = Input.GetAxis("Vertical");
+
         Vector2 move = new Vector2(horizontal, vertical);
 
         if (!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f))
@@ -33,9 +36,13 @@ public class StellarController : MonoBehaviour
         animator.SetFloat("Look Y", lookDirection.y);
         animator.SetFloat("Speed", move.magnitude);
 
-        position.x = position.x + 3.0f * horizontal * speed * Time.deltaTime;
-        position.y = position.y + 3.0f * vertical * speed * Time.deltaTime;
-        transform.position = position;
+    }
+    void FixedUpdate()
+    {
+        Vector2 position = rigidbody2d.position;
+        position.x = position.x + 3.0f * horizontal * Time.deltaTime * speed;
+        position.y = position.y + 3.0f * vertical * Time.deltaTime * speed;
+
+        rigidbody2d.MovePosition(position);
     }
 }
-
