@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class StellarController : MonoBehaviour
 {
-    public float speed = 1.5f;
+    public float speed = 2.0f;
 
     Rigidbody2D rigidbody2d;
     float horizontal;

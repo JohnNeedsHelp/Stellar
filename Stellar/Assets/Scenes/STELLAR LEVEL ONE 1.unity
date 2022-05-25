@@ -5745,6 +5745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stellar
       objectReference: {fileID: 0}
+    - target: {fileID: 7959191431025918482, guid: 83a40bdf2de7c7e44a9a6359ceed75f1, type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 7959191431025918483, guid: 83a40bdf2de7c7e44a9a6359ceed75f1, type: 3}
       propertyPath: m_RootOrder
       value: 1
