@@ -6,6 +6,12 @@ public class StellarController : MonoBehaviour
 {
     public float speed = 2.0f;
 
+    public int maxHealth = 5;
+
+   public int health { get { return currentHealth;  } }
+    int currentHealth;
+
+
     Rigidbody2D rigidbody2d;
     float horizontal;
     float vertical;
@@ -17,6 +23,8 @@ public class StellarController : MonoBehaviour
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+         currentHealth = maxHealth;
     }
     // Update is called once per frame
     void Update()
@@ -44,5 +52,12 @@ public class StellarController : MonoBehaviour
         position.y = position.y + 3.0f * vertical * Time.deltaTime * speed;
 
         rigidbody2d.MovePosition(position);
+    }
+
+    public void ChangeHealth(int amount)
+    {
+      
+      currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+     //UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
     }
 }
