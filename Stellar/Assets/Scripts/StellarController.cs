@@ -1,14 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class StellarController : MonoBehaviour
 {
     public float speed = 2.0f;
-
+    public bool gotpart = false;
     public int maxHealth = 5;
 
-   public int health { get { return currentHealth;  } }
+    public int health { get { return currentHealth; } }
     int currentHealth;
 
 
@@ -24,7 +24,7 @@ public class StellarController : MonoBehaviour
         rigidbody2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
-         currentHealth = maxHealth;
+        currentHealth = maxHealth;
     }
     // Update is called once per frame
     void Update()
@@ -56,8 +56,19 @@ public class StellarController : MonoBehaviour
 
     public void ChangeHealth(int amount)
     {
-      
-      currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
-     //UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
+
+        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+        //UIHealthBar.instance.SetValue(currentHealth / (float)maxHealth);
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("Gate") && gotpart)
+        {
+            gotpart = false;
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+    }
+
 }
+
